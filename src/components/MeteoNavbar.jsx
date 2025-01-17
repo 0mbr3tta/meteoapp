@@ -11,7 +11,7 @@ function MeteoNavbar() {
               <img 
                 src="/logombretta1.png" 
                 alt="Logo"
-                width="230"
+                width="250"
                 height="100"
                 className="d-inline-block align-top m-0 p-0"  // Rimuovi margini e padding
               />
