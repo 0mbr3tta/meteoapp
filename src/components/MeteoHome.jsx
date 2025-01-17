@@ -16,7 +16,7 @@ class MeteoHome extends Component {
       <Container>
         <Row className=" bg-primary justify-content-center">
           <Col xs={12} md={8}>
-            <h1 className=" bg-primary text-center mt-2">Seleziona il tuo paese</h1>
+            <h1 className="  text-center mt-2">Seleziona il tuo paese</h1>
             <Form.Select
               aria-label="Meteo chooser dropdown"
               value={this.state.Paese}
