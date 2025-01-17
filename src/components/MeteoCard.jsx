@@ -13,8 +13,8 @@ class MeteoCard extends Component {
       );
       if (response.ok) {
         const data = await response.json();
-        console.log('dati da API', data); // Visualizza l'intero oggetto dei dati
-        this.setState({ meteoData: data }); // Aggiorna lo stato con i dati ricevuti
+        console.log('dati da API', data); 
+        this.setState({ meteoData: data }); 
       } else {
         throw new Error('Errore nella chiamata');
       }
@@ -24,11 +24,11 @@ class MeteoCard extends Component {
   };
 
   componentDidMount() {
-    this.getMeteoData(); // Chiama getMeteoData quando il componente viene montato
+    this.getMeteoData(); 
   }
 
   componentDidUpdate(prevProps) {
-    // Esegui la chiamata API solo se il paese è cambiato
+  
     if (prevProps.meteoPaese !== this.props.meteoPaese) {
       this.getMeteoData();
     }

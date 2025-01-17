@@ -14,9 +14,9 @@ class MeteoHome extends Component {
   render() {
     return (
       <Container>
-        <Row className="justify-content-center">
+        <Row className=" bg-primary justify-content-center">
           <Col xs={12} md={8}>
-            <h1 className="text-center mt-2">Seleziona il tuo paese</h1>
+            <h1 className=" bg-primary text-center mt-2">Seleziona il tuo paese</h1>
             <Form.Select
               aria-label="Meteo chooser dropdown"
               value={this.state.Paese}
@@ -30,7 +30,7 @@ class MeteoHome extends Component {
             </Form.Select>
           </Col>
         </Row>
-        <Row className="justify-content-center mt-3">
+        <Row className="bg-primary justify-content-center mt-3">
           <Col xs={12} md={8}>
             <MeteoCard meteoPaese={this.state.Paese} />
           </Col>

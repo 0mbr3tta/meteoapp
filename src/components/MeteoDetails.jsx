@@ -4,8 +4,8 @@ import MeteoDetails from './MeteoDetails';
 
 class App extends Component {
   state = {
-    currentPage: 'home', // Pagina iniziale
-    selectedMeteoData: null, // Dati selezionati per i dettagli
+    currentPage: 'home', 
+    selectedMeteoData: null, 
   };
 
   goToDetails = (meteoData) => {
