@@ -6,7 +6,7 @@ function MeteoNavbar() {
     return (
       <>
         <Navbar bg="primary" data-bs-theme="dark" className="m-0 p-0">
-          <Container className="m-2 p-2">
+          <Container  className="m-2 p-2">
             <Navbar.Brand href="#home" className="p-0">
               <img 
                 src="/logombretta1.png" 
