@@ -13,7 +13,7 @@ function MeteoNavbar() {
                 alt="Logo"
                 width="250"
                 height="100"
-                className="d-inline-block align-top m-0 p-0"  // Rimuovi margini e padding
+                className="d-inline-block align-top m-0 p-0"  
               />
             </Navbar.Brand>
             <Nav className="me-auto">

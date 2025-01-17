@@ -42,11 +42,11 @@ class MeteoCard extends Component {
         <Card.Body>
           {meteoData.name ? (
             <>
-              <Card.Title>
+              <Card.Title class>
                 {meteoData.name}, {meteoData.sys?.country}
               </Card.Title>
               <Card.Text>
-                <strong className="text-primary">Temperatura:</strong> {meteoData.main?.temp}°C
+                <strong className=" text-primary">Temperatura:</strong> {meteoData.main?.temp}°C
               </Card.Text>
               <Card.Text>
                 <strong className="text-primary">Condizione:</strong> {meteoData.weather?.[0]?.description}
